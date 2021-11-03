@@ -3,9 +3,9 @@ array_of_food_prices = list(map(int,input().split()))
 # we can do n=int(input())
 # for i in range(n)
 #   x = int(input())
-sumi = 0;
+sumi = 0
 for i in array_of_food_prices:
-    sumi += i;
+    sumi += i
 tips = float(sumi) * 0.18
 local_tax = sumi * 0.12
 print("Sum of local tax", "%.2f" % float(local_tax))
