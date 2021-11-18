@@ -1,0 +1,6 @@
+held = int(input())
+attended = int(input())
+perc = float(attended)/float(held)
+print("Percentage %d " % int(perc*100), "%", sep='')
+if(perc >= 0.75): print("Allow")
+else: print("Not allow")
